@@ -145,3 +145,9 @@ button.btn-primary {
 .projects a {
     color:#295f4e ;
 }
+
+.photos img {
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #343a40;
+  }
