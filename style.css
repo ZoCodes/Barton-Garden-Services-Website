@@ -1,0 +1,103 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  background: #fcfaf7;
+  height: 100vh;
+  margin: 0;
+  color: #343a40;
+  text-align: center;
+}
+
+nav .nav-link {
+    font-weight: 600;
+    color: #343a40;
+    opacity: 80%;
+}
+
+h1 {
+font-weight: 600;
+font-size: 50px;
+line-height: 1.5;
+
+}
+
+h2 {
+    line-height: 1.5;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    opacity: 85%;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    text-align: center;
+    color: #343a40;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  footer a {
+    color: #295f4e;;
+  }
+
+button.btn-primary {
+    font-size: 18px;
+    color: #fcfaf7;
+    background-color: #295f4e ;
+    border-radius: 4px;
+    border: solid #295f4e;
+    padding: 5px auto;
+}
+
+.app-wrapper {
+    max-width: 1100px;
+    margin: 20px auto;
+  }
+
+.logo {
+    width: 200px;
+}
+
+.navbar-light {
+    background: #fcfaf7;
+}
+
+
+/* Homepage */
+.hero-image {
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+/* Services */
+.nav-btn {
+    color: #fcfaf7;;
+    line-height: 1;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #295f4e;
+    opacity: 80%;
+    margin-top: 5px;
+  }
+
+.services h2{
+    font-weight: 600;
+}
+
+.services ul {
+        text-align: left;
+        margin-top: 20px;
+}
