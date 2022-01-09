@@ -68,9 +68,28 @@ button.btn-primary {
     width: 200px;
 }
 
-.navbar-light {
-    background: #fcfaf7;
+.card {
+    border: none;
+    background-color: #fcfaf7;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+    padding: 5px;
+    margin: 5px;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
 }
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  p.card-text {
+    font-size: 16px;
+    opacity: 85%;
+  }
+
 
 
 /* Homepage */
@@ -100,4 +119,8 @@ button.btn-primary {
 .services ul {
         text-align: left;
         margin-top: 20px;
+}
+
+.horizontal-card-one {
+    text-align: left;
 }
