@@ -18,6 +18,7 @@ h1 {
 font-weight: 600;
 font-size: 50px;
 line-height: 1.5;
+margin-top: 30px;
 
 }
 
@@ -61,7 +62,7 @@ footer p {
     color: #295f4e;;
   }
 
-button.btn-primary {
+.btn-primary {
     font-size: 18px;
     color: #fcfaf7;
     background-color: #295f4e ;
@@ -78,6 +79,7 @@ button.btn-primary {
 .logo {
     width: 200px;
 }
+
 
 .card {
     border: none;
@@ -109,6 +111,12 @@ button.btn-primary {
     margin-top: 30px;
     margin-bottom: 20px;
     max-width: 100%;
+}
+
+.experience-card {
+    padding-bottom: 92px;
+    padding-top: 90px;
+
 }
 
 /* Services */
