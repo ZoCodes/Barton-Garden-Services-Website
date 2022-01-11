@@ -32,5 +32,3 @@
 <h3 align="left">If you happen to use this template for your own website, please consider buying me a coffee:</h3>
 <p><a href="https://www.buymeacoffee.com/ZoCodes"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="ZoCodes" /></a></p><br><br>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=zocodes&show_icons=true&locale=en&layout=compact" alt="zocodes" /></p>
-
