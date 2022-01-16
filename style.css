@@ -74,7 +74,9 @@ footer p {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   color: #fff;
   background-color: #343a40;
-  border-color: #343a40 /*set the color you want here*/
+  border-color: #343a40;
+  transition: 100ms ease-in-out;
+
 }
 
 .app-wrapper {
