@@ -71,6 +71,12 @@ footer p {
     padding: 5px auto;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40 /*set the color you want here*/
+}
+
 .app-wrapper {
     max-width: 1100px;
     margin: 20px auto;
