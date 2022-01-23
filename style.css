@@ -192,7 +192,8 @@ footer p {
 
 .carousel {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  height: 530px;
+  border-radius: 4px;
+  height: 500px;
   width: 500px;
   overflow: hidden;
   margin: 0 auto;
@@ -206,11 +207,12 @@ footer p {
 
 .buttons-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .project-btn {
   background-color: #295f4e;
+  border-radius: 4px;
   font-family: 'Montserrat', sans-serif;
   color: #fcfaf7;
   border: none;
