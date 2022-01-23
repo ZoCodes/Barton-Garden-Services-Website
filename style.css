@@ -165,8 +165,65 @@ footer p {
     color:#295f4e ;
 }
 
-.photos img {
-    border-radius: 4px;
-    margin-bottom: 20px;
-    border: 1px solid #343a40;
-  }
+.photos .img-fluid {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #343a40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.project-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.project-img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+.carousel {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 530px;
+  width: 500px;
+  overflow: hidden
+}
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-btn {
+  background-color: #295f4e;
+  font-family: 'Montserrat', sans-serif;
+  color: #fcfaf7;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.project-btn:hover {
+  opacity: 0.9;
+}
+
+.project-btn:focus {
+  outline: none;
+}
+
+
