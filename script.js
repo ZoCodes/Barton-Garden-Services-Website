@@ -81,7 +81,7 @@ const img = document.querySelectorAll('#imgs .project-img')
 
 let idximage = 0
 
-let interval = setInterval(run, 2000)
+let interval = setInterval(run, 5000)
 
 function run() {
 idximage++
