@@ -16,19 +16,19 @@ const testimonials = [
       name: 'Raphi Randall',
       service: 'Landscaping',
       text:
-        'Will and Connor did a brilliant job to our tired front garden. They had great ideas and helped me with my vision of using reclaimed bricks and fresh coping stone. Despite terrible weather and external factors the job was completed to a high standard and I’m very pleased. I will turn to them again for future garden work. Thank you!',
+        'Will and Connor did a brilliant job to our tired front garden. They had great ideas and helped me with my vision of using reclaimed bricks and fresh coping stone. Despite terrible weather and external factors the job was completed to a high standard and I’m very pleased!',
     },
     {
       name: 'Victoria Doxat',
       service: 'Landscaping',
       text:
-        'Absolutely FIRST CLASS service. Will landscaped our front garden, including replacing the old steps with new brick. Will and Connor (the bricky) did a GREAT job but more importantly went above and beyond to deliver excellent customer service. There was an issue with the brickwork (our fault in changing the brief) and Will and Connor went to great lengths to rectify it quickly and professionally and with good humour.',
+        'Absolutely FIRST CLASS service. Will landscaped our front garden, including replacing the old steps with new brick. Will did a GREAT job but more importantly went above and beyond to deliver excellent customer service - professionally and with good humour.',
     },
     {
       name: 'Lucy Maggs Krebs',
       service: 'Fencing',
       text:
-        'Highly recommend Barton Garden Services, they built the most beautiful custom fence for us last week. Professional, prompt and tidy.',
+        'Highly recommend Barton Garden Services in Petersfield, they built the most beautiful custom fence for us last week. Professional, prompt and tidy.',
     },
     {
       name: 'Julie Osborne',
@@ -53,10 +53,9 @@ const testimonials = [
   let idx = 1
 
   function updateTestimonial() {
-    const { name, service, photo, text } = testimonials[idx]
+    const { name, service, text } = testimonials[idx]
   
     testimonial.innerHTML = text
-    userImage.src = photo
     username.innerHTML = name
     role.innerHTML = service
   

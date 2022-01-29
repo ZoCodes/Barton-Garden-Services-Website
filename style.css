@@ -245,9 +245,10 @@ footer p {
   background-color:#295f4e ;
   color: #fcfaf7;
   border-radius: 15px;
-  margin: 10px auto;
-  padding: 50px 80px;
+  margin: 20px auto;
+  padding: 30px 70px;
   max-width: 768px;
+  max-height: 800px;
   position: relative;
 }
 
@@ -275,13 +276,6 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.user .user-image {
-  border-radius: 50%;
-  height: 75px;
-  width: 75px;
-  object-fit: cover;
 }
 
 .user .user-details { 
