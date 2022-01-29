@@ -8,52 +8,43 @@ const role = document.querySelector('.role')
 const testimonials = [
     {
       name: 'Sophie Lyons',
-      position: 'Fencing',
-      photo:
-        'https://randomuser.me/api/portraits/women/28.jpg',
+      service: 'Fencing',
       text:
         'Will did a great job with our fencing. Completely understood what we needed and did a very good job at a reasonable price. Friendly and easy to deal with. Highly recommend.',
     },
     {
       name: 'Raphi Randall',
-      position: 'Landscaping',
-      photo: 'https://randomuser.me/api/portraits/men/44.jpg',
+      service: 'Landscaping',
       text:
         'Will and Connor did a brilliant job to our tired front garden. They had great ideas and helped me with my vision of using reclaimed bricks and fresh coping stone. Despite terrible weather and external factors the job was completed to a high standard and I’m very pleased. I will turn to them again for future garden work. Thank you!',
     },
     {
       name: 'Victoria Doxat',
-      position: 'Landscaping',
-      photo: 'https://randomuser.me/api/portraits/women/68.jpg',
+      service: 'Landscaping',
       text:
         'Absolutely FIRST CLASS service. Will landscaped our front garden, including replacing the old steps with new brick. Will and Connor (the bricky) did a GREAT job but more importantly went above and beyond to deliver excellent customer service. There was an issue with the brickwork (our fault in changing the brief) and Will and Connor went to great lengths to rectify it quickly and professionally and with good humour.',
     },
     {
       name: 'Lucy Maggs Krebs',
-      position: 'Fencing',
-      photo: 'https://randomuser.me/api/portraits/women/65.jpg',
+      service: 'Fencing',
       text:
         'Highly recommend Barton Garden Services, they built the most beautiful custom fence for us last week. Professional, prompt and tidy.',
     },
     {
       name: 'Julie Osborne',
-      position: 'Pruning',
-      photo: 'https://randomuser.me/api/portraits/women/43.jpg',
+      service: 'Pruning',
       text:
         'Great work from Will and team who put us up a fantastic fence at the front of the property and did a fab job in pruning our out of control apple tree. Would definitely recommend and also intend to get him back in the spring to prune a cherry tree.',
     },
     {
       name: 'Charlie Spencer',
-      position: 'Patio',
-      photo:
-        'https://randomuser.me/api/portraits/men/46.jpg',
+      service: 'Patio',
       text:
         'Engaged Will and his team for a pretty extensive front and rear patio job in porcelain, working around some complicating features from the interesting execution by the original builders. Will and his guys were great at explaining the process, coming up with solutions to challenges, and keeping me informed of everything going on, as well as when external factors caused delay or further complications',
     },
     {
       name: 'Lou Gregson',
-      position: 'Maintenance',
-      photo: 'https://randomuser.me/api/portraits/women/97.jpg',
+      service: 'Maintenance',
       text:
         'Absolutely wonderful services! From quote to completion of regular maintaining of our garden, Will has been fantastic. We highly recommend Barton Garden Services, for an excellent professional job!',
     },
@@ -62,12 +53,12 @@ const testimonials = [
   let idx = 1
 
   function updateTestimonial() {
-    const { name, position, photo, text } = testimonials[idx]
+    const { name, service, photo, text } = testimonials[idx]
   
     testimonial.innerHTML = text
     userImage.src = photo
     username.innerHTML = name
-    role.innerHTML = position
+    role.innerHTML = service
   
     idx++
   
